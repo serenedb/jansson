@@ -352,8 +352,6 @@ else()
       ${JANSSON_SRC}
       ${JANSSON_HDR_PRIVATE}
       ${JANSSON_HDR_PUBLIC})
-   set_target_properties(jansson PROPERTIES
-      POSITION_INDEPENDENT_CODE true)
 endif()
 
 
